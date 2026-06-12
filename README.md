@@ -26,4 +26,9 @@ under that enable these perms on the bot
 ✅ Send Messages
 ✅ Read Message History
 Then under that there should be a link copy it but dont paste it YET 
-On the left side 
+On the left side press bot then enable
+✅ MESSAGE CONTENT INTENT
+✅ SERVER MEMBERS INTENT
+✅ PRESENCE INTENT
+These perms are needed for the bot to work
+make a new tab and PASTE that link in then it will ask you what server it should be put it Select the server it should join
