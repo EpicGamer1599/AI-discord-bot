@@ -1,75 +1,124 @@
 # AI-discord-bot
-A AI discord bot that uses gemini-groq to talk to discord members via !ask
 
-# What youll need
-> Computer
-> Python
-> Windows/Linux (maybe macos)
-> Internet or network to host the bot
+An AI Discord bot that uses gemini-groq to talk to Discord members via `!ask`.
 
-# How to install it
-Go to and download python from here - https://www.python.org/downloads/ -
-After installing open CMD on your computer or terminal
-then run this command to install everything you need to run this bot here - pip install discord.py groq python-dotenv duckduckgo-search google-generativeai -
-After that make a folder where your going to store bot.py .env etc etc
-put bot.py and make a file named just named .env into that folder
-Put this inside of that blank .ENV
+# What You'll Need
+
+- Computer
+- Python
+- Windows/Linux (maybe macOS)
+- Internet or a network to host the bot
+
+# How to Install It
+
+Go and download Python from here:
+
+https://www.python.org/downloads/
+
+After installing, open CMD on your computer or Terminal, then run this command to install everything you need to run this bot:
+
+```bash
+pip install discord.py groq python-dotenv duckduckgo-search google-generativeai
+```
+
+After that, make a folder where you're going to store `bot.py`, `.env`, etc.
+
+Put `bot.py` in that folder and make a file named `.env`.
+
+Put this inside that blank `.env` file:
+
+```env
 DISCORD_TOKEN=(TOKENHERE)
 GROQ_API_KEY=(TOKENHERE)
 GEMINI_API_KEY=(TOKENHERE)
-EVERYTHING is almost setup BUT you do need to set up the env file soo get ready!
+```
 
-# Setting up the .ENV file
-Go here to make the discord bot - https://discord.com/developers/applications -
-Press you agree then press "New applications"
-Name your bot somthing i would call it "Ai Bot"
-Go to bot and give it a profile picture name banner if you have that (optional)
-go to QAuth section on the left and scroll till "OAuth2 URL Generator" Press the BOT button only
-under that enable these perms on the bot
-✅ View Channels
-✅ Send Messages
-✅ Read Message History
-Then under that there should be a link copy it but dont paste it YET 
-On the left side press bot then enable
-✅ MESSAGE CONTENT INTENT
-✅ SERVER MEMBERS INTENT
-✅ PRESENCE INTENT
-These perms are needed for the bot to work
-make a new tab and PASTE that link in then it will ask you what server it should be put it Select the server it should join
-NOW go back to Your application and go to the bot section
-press reset token this requires you typing your password or other verfication 
-then youll get a massive line of words
+Everything is almost set up, but you do need to set up the `.env` file, so get ready!
 
-> ⚠️ DO NOT SEND THESE WORDS TO OTHERS THIS IS YOUR BOT TOKEN⚠️
+# Setting Up the .ENV File
 
-PUT that token in the DISCORD_TOKEN=(tokenhere) part and replace (tokenhere) with your discord token
-NEXT Up
+Go here to make the Discord bot:
 
-# getting your groq token
-Go to - https://console.groq.com/keys - 
-Youll be asked to sign in sign in with your email and do what it says
-When your on the page press "Create API key"
-Name it somthing example "Discord Bot" 
-Make it never expire
-You should get a new key
+https://discord.com/developers/applications
 
-> ⚠️ DO NOT SEND THESE WORDS TO OTHERS THIS IS YOUR GROQ TOKEN⚠️
+Press **Agree**, then press **"New Application"**.
 
-Go and put that token in the ENV replacing (TOKENHERE) in groqkey
+Name your bot something. I would call it **"AI Bot"**.
 
-# getting gemini key
-Make sure your logged into a google account
-Go to - https://aistudio.google.com/app/api-keys -
-After logging in you should be here at a API screen 
-Press "create a api key" On the top right
-Name it somthing and if you want to spend money on this bot get a paid model
-after making the key it should give you random words
+Go to the **Bot** section and give it a profile picture and banner if you have one (optional).
 
-> ⚠️ DO NOT SEND THESE WORDS TO OTHERS THIS IS YOUR GEMINI TOKEN⚠️
+Go to the **OAuth** section on the left and scroll until **"OAuth2 URL Generator"**. Press the **BOT** button only.
 
-Reaplce (TOKENHERE) in the ENV file in Gemini key
+Under that, enable these permissions:
 
-AFTER you have done all of this double click on the py file it should open the console and everythnig should of gone to plan :D
+- ✅ View Channels
+- ✅ Send Messages
+- ✅ Read Message History
 
-Contact me IF any issues apply for :3 
+Then there should be a link. Copy it, but don't paste it yet.
 
+On the left side, press **Bot**, then enable:
+
+- ✅ MESSAGE CONTENT INTENT
+- ✅ SERVER MEMBERS INTENT
+- ✅ PRESENCE INTENT
+
+These permissions are needed for the bot to work.
+
+Make a new tab and paste that link in. It will ask you what server it should be added to. Select the server it should join.
+
+Now go back to your application and go to the **Bot** section.
+
+Press **Reset Token**. This requires you to type your password or complete other verification.
+
+Then you'll get a massive line of text.
+
+> ⚠️ **DO NOT SEND THESE WORDS TO OTHERS. THIS IS YOUR BOT TOKEN.** ⚠️
+
+Put that token in `DISCORD_TOKEN=(TOKENHERE)` and replace `(TOKENHERE)` with your Discord token.
+
+## Getting Your Groq Token
+
+Go to:
+
+https://console.groq.com/keys
+
+You'll be asked to sign in with your email.
+
+When you're on the page, press **"Create API Key"**.
+
+Name it something, for example:
+
+`Discord Bot`
+
+Make it never expire.
+
+You should get a new key.
+
+> ⚠️ **DO NOT SEND THESE WORDS TO OTHERS. THIS IS YOUR GROQ TOKEN.** ⚠️
+
+Put that token in the `.env` file, replacing `(TOKENHERE)` for `GROQ_API_KEY`.
+
+## Getting Your Gemini Key
+
+Make sure you're logged into a Google account.
+
+Go to:
+
+https://aistudio.google.com/app/api-keys
+
+After logging in, press **"Create an API Key"**.
+
+Name it something, and if you want to spend money on this bot, get a paid model.
+
+After creating the key, it should give you a random string of characters.
+
+> ⚠️ **DO NOT SEND THESE WORDS TO OTHERS. THIS IS YOUR GEMINI TOKEN.** ⚠️
+
+Replace `(TOKENHERE)` in the `.env` file for `GEMINI_API_KEY`.
+
+# Done!
+
+After you have done all of this, double-click the `.py` file. It should open the console, and everything should have gone to plan. :D
+
+If you have any issues, contact me for help. :3
