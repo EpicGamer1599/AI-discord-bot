@@ -122,3 +122,7 @@ Replace `(TOKENHERE)` in the `.env` file for `GEMINI_API_KEY`.
 After you have done all of this, double-click the `.py` file. It should open the console, and everything should have gone to plan. :D
 
 If you have any issues, contact me for help. :3
+
+# License
+
+This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
