@@ -12,7 +12,11 @@ Go to and download python from here - https://www.python.org/downloads/ -
 After installing open CMD on your computer or terminal
 then run this command to install everything you need to run this bot here - pip install discord.py groq python-dotenv duckduckgo-search google-generativeai -
 After that make a folder where your going to store bot.py .env etc etc
-put bot.py and .env into that folder
+put bot.py and make a file named just named .env into that folder
+Put this inside of that blank .ENV
+DISCORD_TOKEN=(TOKENHERE)
+GROQ_API_KEY=(TOKENHERE)
+GEMINI_API_KEY=(TOKENHERE)
 EVERYTHING is almost setup BUT you do need to set up the env file soo get ready!
 
 # Setting up the .ENV file
