@@ -33,9 +33,9 @@ GROQ_API_KEY=(TOKENHERE)
 GEMINI_API_KEY=(TOKENHERE)
 ```
 
-Everything is almost set up, but you do need to set up the `.env` file, so get ready!
+Everything is almost set up, but you do need to set up the Discord bot, so get ready!
 
-# Setting Up the .ENV File
+# Making the Discord Bot
 
 Go here to make the Discord bot:
 
