@@ -32,3 +32,13 @@ On the left side press bot then enable
 ✅ PRESENCE INTENT
 These perms are needed for the bot to work
 make a new tab and PASTE that link in then it will ask you what server it should be put it Select the server it should join
+NOW go back to Your application and go to the bot section
+press reset token this requires you typing your password or other verfication 
+then youll get a massive line of words
+
+> ⚠️ DO NOT SEND THESE WORDS TO OTHERS THIS IS YOUR BOT TOKEN⚠️
+
+PUT that token in the DISCORD_TOKEN=(tokenhere) part and replace (tokenhere) with your discord token
+NEXT Up
+
+Getting
