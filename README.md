@@ -41,4 +41,16 @@ then youll get a massive line of words
 PUT that token in the DISCORD_TOKEN=(tokenhere) part and replace (tokenhere) with your discord token
 NEXT Up
 
-Getting
+# getting your groq token
+Go to - https://console.groq.com/keys - 
+Youll be asked to sign in sign in with your email and do what it says
+When your on the page press "Create API key"
+Name it somthing example "Discord Bot" 
+Make it never expire
+You should get a new key
+
+> ⚠️ DO NOT SEND THESE WORDS TO OTHERS THIS IS YOUR BOT TOKEN⚠️
+
+Go and put that token in the ENV replacing (TOKENHERE) in groqkey
+
+# getting gemini key
