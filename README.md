@@ -23,7 +23,7 @@ pip install discord.py groq python-dotenv duckduckgo-search google-generativeai
 
 After that, make a folder where you're going to store `bot.py`, `.env`, etc.
 
-Put `bot.py` in that folder and make a file named `.env`.
+Put `bot.py` in that folder and make a file named `.env` in the same folder.
 
 Put this inside that blank `.env` file:
 
@@ -35,7 +35,7 @@ GEMINI_API_KEY=(TOKENHERE)
 
 Everything is almost set up, but you do need to set up the Discord bot, so get ready!
 
-# Making the Discord Bot
+## Making the Discord Bot
 
 Go here to make the Discord bot:
 
